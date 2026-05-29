@@ -11,7 +11,6 @@ public class Main {
         System.out.println("CUI\t\t| NOMBRE\t\t\t| NACIONALIDAD");
         System.out.println("-------------------------------------------------------------------");
         
-        // Llama al metodo camuflado que usa el procedimiento almacenado
         List<Cliente> clientes = dao.obtenerCatalogoClientes();
         if (clientes.isEmpty()) {
             System.out.println("No se encontraron clientes en el sistema.");

@@ -1,7 +1,7 @@
 package org.hotel_paraiso;
 
 public class Cliente {
-    private long cui; // Es bigint en su SQL, por eso se usa long
+    private long cui; 
     private String nombre;
     private String nacionalidad;
 

@@ -5,10 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
-    // Apuntando directo a la BD de tu amigo
-    private static final String URL = "jdbc:mysql://localhost:3306/script_db_DDL_kenneth_palencia_in4cm";
+    public static final String URL = "jdbc:mysql://localhost:3306/nombre_de_tu_db?useUnicode=true&characterEncoding=UTF-8";
     private static final String USER = "root";
-    private static final String PASSWORD = "MiguelAngel2009"; // Usa tu contraseña local de MySQL
+    private static final String PASSWORD = "Kenneth098*"; 
 
     public static Connection obtenerConexion() {
         Connection conexion = null;
